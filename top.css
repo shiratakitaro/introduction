@@ -170,12 +170,15 @@
 }
 
 /*--------------------------------------------------
-          main-content
+                  main-content
 --------------------------------------------------*/
 .clear{
   clear: both;
 }
 
+/*-----------------------------
+              top
+-----------------------------*/
 .top-background{
   background-image: url(./img/moon.jpg);
   padding-top: 30px;
@@ -226,6 +229,10 @@
   float: left;
 }
 
+/*------------------------------
+            past
+------------------------------*/
+
 .past-background{
   background-image: url(./img/moon.jpg);
   padding-top: 30px;
@@ -234,9 +241,16 @@
   height: 800px;
 }
 
+.past-background .past-content-box{
+  height: 700px;
+  width: 1000px;
+  margin: 0 auto;
+  overflow: scroll;
+}
+
 .past-background .past-content-box .past-content1{
-  height: 300px;
-  width: 600px;
+  height: 310px;
+  width: 900px;
   margin: 0 auto;
   margin-top: 50px;
   background-color: white;
@@ -244,9 +258,90 @@
 }
 
 .past-background .past-content-box .past-content1 .past-content1-text{
-  height: 450px;
-  width: 430px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.past-background .past-content-box .past-content2{
+  height: 380px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.past-background .past-content-box .past-content2 .past-content2-text{
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.past-background .past-content-box .past-content3{
+  height: 310px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.past-background .past-content-box .past-content3 .past-content3-text{
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.past-background .past-content-box .past-content4{
+  height: 410px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.past-background .past-content-box .past-content4 .past-content4-text{
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.past-background .past-content-box .past-content5{
+  height: 310px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.past-background .past-content-box .past-content5 .past-content5-text{
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.past-background .past-content-box .past-content6{
+  height: 190px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.past-background .past-content-box .past-content6 .past-content6-text{
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.past-background .past-content-box .past-content7{
+  height: 670px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.past-background .past-content-box .past-content7 .past-content7-text{
+  padding: 20px;
+  box-sizing: border-box;
 }
