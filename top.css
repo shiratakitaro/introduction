@@ -195,8 +195,9 @@
 }
 
 .top-background .top-content-box .top-content1{
-  height: 800px;
-  width: 450px;
+  height: 500px;
+  width: 900px;
+  margin: 0 auto;
   margin-top: 50px;
   margin-right: 20px;
   background-color: #fff;
@@ -210,31 +211,12 @@
   padding-bottom: 20px;
 }
 
-.top-background .top-content-box .top-content2{
-  height: 500px;
-  width: 450px;
-  margin-top: 50px;
-  margin-right: 20px;
-  background-color: white;
-  opacity: 0.5;
-  float: left;
-}
-
-.top-background .top-content-box .top-content2 .top-content2-text{
-  height: 450px;
-  width: 430px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  float: left;
-}
-
 /*------------------------------
             past
 ------------------------------*/
 
 .past-background{
-  background-image: url(./img/moon.jpg);
+  background-image: url(./img/taiyoukei.jpg);
   padding-top: 30px;
   background-size: cover;
   background-position: 0%;
@@ -351,7 +333,7 @@
 -------------------------------------*/
 
 .now-background{
-  background-image: url(./img/moon.jpg);
+  background-image: url(./img/black.jpg);
   padding-top: 30px;
   background-size: cover;
   background-position: 0%;
@@ -366,7 +348,7 @@
 }
 
 .now-background .now-content-box .now-content1{
-  height: 310px;
+  height: 200px;
   width: 900px;
   margin: 0 auto;
   margin-top: 50px;
@@ -380,7 +362,7 @@
 }
 
 .now-background .now-content-box .now-content2{
-  height: 310px;
+  height: 180px;
   width: 900px;
   margin: 0 auto;
   margin-top: 50px;
@@ -394,7 +376,7 @@
 }
 
 .now-background .now-content-box .now-content3{
-  height: 310px;
+  height: 160px;
   width: 900px;
   margin: 0 auto;
   margin-top: 50px;
@@ -411,7 +393,7 @@
                 future content
 --------------------------------------------*/
 .future-background{
-  background-image: url(./img/moon.jpg);
+  background-image: url(./img/galaxy.jpg);
   padding-top: 30px;
   background-size: cover;
   background-position: 0%;
